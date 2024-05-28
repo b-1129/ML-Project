@@ -1,6 +1,7 @@
 import sys
 import logging
 ## any exception there has been controlled , a sys library automatic have that information
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
